@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "question": "The author's argument is predicated on the assumption that human behavior is inherently __________. Choose the word most opposite in meaning to inherent.",
+      "choices": [
+        {"choiceString": "Acquired", "choiceValue": false},
+        {"choiceString": "Extrinsic", "choiceValue": true},
+        {"choiceString": "Innate", "choiceValue": false},
+        {"choiceString": "Uninfluenced", "choiceValue": false}
+      ]
+    },
+    {
+      "question": "Stealthy is to furtive as insincere is to __________.",
+      "choices": [
+        {"choiceString": "Deceptive", "choiceValue": true},
+        {"choiceString": "Transparent", "choiceValue": false},
+        {"choiceString": "Authentic", "choiceValue": false},
+        {"choiceString": "Discreet", "choiceValue": false}
+      ]
+    },
+    {
+      "question": "The movie's ending was intentionally ambiguous, leaving viewers to draw their own __________ conclusions.",
+      "choices": [
+        {"choiceString": "Unambiguous", "choiceValue": false},
+        {"choiceString": "Conclusive", "choiceValue": false},
+        {"choiceString": "Inconclusive", "choiceValue": true},
+        {"choiceString": "Indecisive", "choiceValue": false}
+      ]
+    },
+    {
+      "question": "According to the passage, which of the following best describes the author's stance on technological advancements in the workforce?",
+      "choices": [
+        {"choiceString": "Enthusiastic endorsement", "choiceValue": false},
+        {"choiceString": "Cautious optimism", "choiceValue": true},
+        {"choiceString": "Resolute opposition", "choiceValue": false},
+        {"choiceString": "Skeptical indifference", "choiceValue": false}
+      ]
+    },
+    {
+      "question": "The artist's __________ use of color and form elicited a range of emotions from those who viewed the exhibit.",
+      "choices": [
+        {"choiceString": "Subdued", "choiceValue": false},
+        {"choiceString": "Austere", "choiceValue": false},
+        {"choiceString": "Prolific", "choiceValue": true},
+        {"choiceString": "Audacious", "choiceValue": false}
+      ]
+    },
+    {
+      "question": "Compare 1/2 and 3/4.",
+      "choices": [
+        {"choiceString": "1/2 > 3/4", "choiceValue": false},
+        {"choiceString": "1/2 < 3/4", "choiceValue": true},
+        {"choiceString": "1/2 = 3/4", "choiceValue": false},
+        {"choiceString": "The relationship cannot be determined.", "choiceValue": false}
+      ]
+    },
+    {
+      "question": "Refer to the bar chart below. If the total number of items sold is 400, what is the percentage of items sold in Category A?",
+      "choices": [
+        {"choiceString": "25%", "choiceValue": false},
+        {"choiceString": "30%", "choiceValue": false},
+        {"choiceString": "35%", "choiceValue": true},
+        {"choiceString": "40%", "choiceValue": false}
+      ]
+    },
+    {
+      "question": "If a - b = 7 and a + b = 11, what is the value of a?",
+      "choices": [
+        {"choiceString": "4", "choiceValue": false},
+        {"choiceString": "7", "choiceValue": true},
+        {"choiceString": "9", "choiceValue": false},
+        {"choiceString": "11", "choiceValue": false}
+      ]
+    },
+    {
+      "question": "Compare x^2 and -x^2.",
+      "choices": [
+        {"choiceString": "x^2 > -x^2", "choiceValue": true},
+        {"choiceString": "x^2 < -x^2", "choiceValue": false},
+        {"choiceString": "x^2 = -x^2", "choiceValue": false},
+        {"choiceString": "The relationship cannot be determined.", "choiceValue": false}
+      ]
+    },
+    {
+      "question": "Data Interpretation: Refer to the line graph below. What is the average slope of the line between points A and B?",
+      "choices": [
+        {"choiceString": "2", "choiceValue": false},
+        {"choiceString": "3", "choiceValue": false},
+        {"choiceString": "4", "choiceValue": false},
+        {"choiceString": "5", "choiceValue": true}
+      ]
+    },
+    {
+      "question": "Verbal Reasoning: Antonyms - The author's writing style is characterized by its opacity. Choose the word most opposite in meaning to opacity.",
+      "choices": [
+        {"choiceString": "Clarity", "choiceValue": true},
+        {"choiceString": "Ambiguity", "choiceValue": false},
+        {"choiceString": "Insularity", "choiceValue": false},
+        {"choiceString": "Elusiveness", "choiceValue": false}
+      ]
+    },
+    {
+      "question": "Verbal Reasoning: Analogies - Wariness is to caution as equivocation is to __________.",
+      "choices": [
+        {"choiceString": "Certainty", "choiceValue": false},
+        {"choiceString": "Deception", "choiceValue": true},
+        {"choiceString": "Clarity", "choiceValue": false},
+        {"choiceString": "Hesitation", "choiceValue": false}
+      ]
+    },
+    {
+      "question": "Verbal Reasoning: Sentence Equivalence - The movie's ending was intentionally ambiguous, leaving viewers to draw their own __________ conclusions.",
+      "choices": [
+        {"choiceString": "Unambiguous", "choiceValue": false},
+        {"choiceString": "Conclusive", "choiceValue": false},
+        {"choiceString": "Inconclusive", "choiceValue": true},
+        {"choiceString": "Indecisive", "choiceValue": false}
+      ]
+    },
+    {
+      "question": "Verbal Reasoning: Reading Comprehension - According to the passage, which of the following is a potential consequence of the proposed economic policy?",
+      "choices": [
+        {"choiceString": "Increased inflation", "choiceValue": false},
+        {"choiceString": "Higher unemployment rates", "choiceValue": false},
+        {"choiceString": "Enhanced productivity", "choiceValue": false},
+        {"choiceString": "Reduced government spending", "choiceValue": true}
+      ]
+    },
+    {
+      "question": "Verbal Reasoning: Text Completion - The mayor's __________ attempt to address the city's housing crisis fell short of expectations, leaving many citizens dissatisfied.",
+      "choices": [
+        {"choiceString": "Inefficacious", "choiceValue": true},
+        {"choiceString": "Ambivalent", "choiceValue": false},
+        {"choiceString": "Pernicious", "choiceValue": false},
+        {"choiceString": "Ephemeral", "choiceValue": false}
+      ]
+    },
+    {
+      "question": "Quantitative Reasoning: Quantitative Comparison - Compare √17 and √20.",
+      "choices": [
+        {"choiceString": "√17 > √20", "choiceValue": false},
+        {"choiceString": "√17 < √20", "choiceValue": false},
+        {"choiceString": "√17 = √20", "choiceValue": false},
+        {"choiceString": "The relationship cannot be determined.", "choiceValue": true}
+      ]
+    },
+    {
+      "question": "Quantitative Reasoning: Data Interpretation - Refer to the table below. If x and y are integers, what is the value of x + y?",
+      "choices": [
+        {"choiceString": "10", "choiceValue": false},
+        {"choiceString": "12", "choiceValue": false},
+        {"choiceString": "14", "choiceValue": true},
+        {"choiceString": "16", "choiceValue": false}
+      ]
+    },
+    {
+      "question": "Quantitative Reasoning: Problem Solving - If 3x + 5 = 2x - 7, what is the value of x?",
+      "choices": [
+        {"choiceString": "-12", "choiceValue": false},
+        {"choiceString": "-6", "choiceValue": false},
+        {"choiceString": "2", "choiceValue": true},
+        {"choiceString": "12", "choiceValue": false}
+      ]
+    },
+    {
+      "question": "Quantitative Reasoning: Quantitative Comparison - Compare (a - b)² and a² - b².",
+      "choices": [
+        {"choiceString": "(a - b)² > a² - b²", "choiceValue": false},
+        {"choiceString": "(a - b)² < a² - b²", "choiceValue": false},
+        {"choiceString": "(a - b)² = a² - b²", "choiceValue": true},
+        {"choiceString": "The relationship cannot be determined.", "choiceValue": false}
+      ]
+    },
+    {
+      "question": "Quantitative Reasoning: Data Interpretation - Refer to the graph below. What is the average rate of change in y with respect to x between x = 2 and x = 4?",
+      "choices": [
+        {"choiceString": "1", "choiceValue": false},
+        {"choiceString": "2", "choiceValue": true},
+        {"choiceString": "3", "choiceValue": false},
+        {"choiceString": "4", "choiceValue": false}
+      ]
+    }
+  ]
+}
