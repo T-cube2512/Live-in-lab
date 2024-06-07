@@ -8,10 +8,12 @@ public class QuestionAskManager : MonoBehaviour
     public Text[] choiceTexts;
     public Text timerText;
     public Text averageTimeText;
-
+    [SerializeField]
     private QuestionArrangeManager questionArrangeManager;
+    [SerializeField]
     private Question[] questions;
-    private float totalTime = 120f;
+    [SerializeField]
+    private float totalTime = 60f;
     private float remainingTime;
     private float questionStartTime;
     private int questionsSolved = 0;
@@ -20,9 +22,10 @@ public class QuestionAskManager : MonoBehaviour
     void Start()
     {
         questionArrangeManager = FindObjectOfType<QuestionArrangeManager>();
-        questions = questionArrangeManager.questions;
         remainingTime = totalTime;
         StartCoroutine(Timer());
+        questions = questionArrangeManager.questions;
+        Debug.Log(questionArrangeManager.questions);
         AskRandomQuestion();
     }
 
@@ -33,8 +36,8 @@ public class QuestionAskManager : MonoBehaviour
             EndQuiz();
             return;
         }
-
-        Question question = questions[Random.Range(0, questions.Length)];
+        Debug.Log(questions.Length);
+        Question question = questions[Random.Range(0, questions.Length-1)];
         questionText.text = question.question;
 
         for (int i = 0; i < choiceTexts.Length; i++)
