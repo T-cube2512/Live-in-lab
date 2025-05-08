@@ -4,16 +4,18 @@ using System.Collections;
 
 public class QuestionAskManager : MonoBehaviour
 {
+    public float totalTime = 30f;
     public Text questionText;
     public Text[] choiceTexts;
     public Text timerText;
     public Text averageTimeText;
+    public Text correctAnsText;
     [SerializeField]
     private QuestionArrangeManager questionArrangeManager;
     [SerializeField]
     private Question[] questions;
     [SerializeField]
-    private float totalTime = 60f;
+    private int correctAns = 0;
     private float remainingTime;
     private float questionStartTime;
     private int questionsSolved = 0;
@@ -37,7 +39,8 @@ public class QuestionAskManager : MonoBehaviour
             return;
         }
         Debug.Log(questions.Length);
-        Question question = questions[Random.Range(0, questions.Length-1)];
+        Question question = questions[Random.Range(0, questions.Length)];
+
         questionText.text = question.question;
 
         for (int i = 0; i < choiceTexts.Length; i++)
@@ -60,16 +63,41 @@ public class QuestionAskManager : MonoBehaviour
     {
         if (questions.Length == 0)
             return;
-
         Question question = questions[Random.Range(0, questions.Length)];
         if (question.choices[index].choiceValue)
         {
-            float solveTime = Time.time - questionStartTime;
-            questionsSolved++;
-            totalSolveTime += solveTime;
+            correctAns++;  
+            DisplayAnswerFeedback(true);  
+        }
+        else
+        {
+            DisplayAnswerFeedback(false);  
         }
 
+        float solveTime = Time.time - questionStartTime;
+        questionsSolved++;
+        totalSolveTime += solveTime;
+
         AskRandomQuestion();
+    }
+
+    void DisplayAnswerFeedback(bool isCorrect)
+    {
+        if (isCorrect)
+        {
+            correctAnsText.text = "Correct Answers :" + (correctAns).ToString();
+        }
+        else
+        {
+            correctAnsText.text = "Correct Answers :" + (correctAns).ToString();
+        }
+
+        StartCoroutine(ClearAnswerFeedback());
+    }
+
+    IEnumerator ClearAnswerFeedback()
+    {
+        yield return new WaitForSeconds(0);  
     }
 
     IEnumerator Timer()

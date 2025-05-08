@@ -179,6 +179,96 @@
         {"choiceString": "3", "choiceValue": false},
         {"choiceString": "4", "choiceValue": false}
       ]
-    }
-  ]
+    },
+      {
+        "question": "Quantitative Reasoning: If the value of x satisfies the equation \\(2x^2 + 3x - 5 = 0\\), what is the sum of its roots?",
+        "choices": [
+          {"choiceString": "-3/2", "choiceValue": true},
+          {"choiceString": "5/2", "choiceValue": false},
+          {"choiceString": "3", "choiceValue": false},
+          {"choiceString": "-5", "choiceValue": false}
+        ]
+      },
+      {
+        "question": "Logical Reasoning: If all cats are animals and some animals are dogs, which of the following is true?",
+        "choices": [
+          {"choiceString": "All dogs are cats", "choiceValue": false},
+          {"choiceString": "Some dogs are cats", "choiceValue": false},
+          {"choiceString": "Some animals are not cats", "choiceValue": true},
+          {"choiceString": "All animals are dogs", "choiceValue": false}
+        ]
+      },
+      {
+        "question": "Numerical Reasoning: A train travels 60 km in 1 hour and 45 minutes. What is its average speed in km/h?",
+        "choices": [
+          {"choiceString": "34.29", "choiceValue": false},
+          {"choiceString": "48", "choiceValue": true},
+          {"choiceString": "52", "choiceValue": false},
+          {"choiceString": "60", "choiceValue": false}
+        ]
+      },
+      {
+        "question": "Data Interpretation: A company’s profit grew from $500,000 to $750,000 in a year. What is the percentage increase?",
+        "choices": [
+          {"choiceString": "25%", "choiceValue": false},
+          {"choiceString": "33.33%", "choiceValue": false},
+          {"choiceString": "50%", "choiceValue": true},
+          {"choiceString": "66.67%", "choiceValue": false}
+        ]
+      },
+      {
+        "question": "Critical Thinking: If an argument is valid, which of the following must be true?",
+        "choices": [
+          {"choiceString": "Its premises are true", "choiceValue": false},
+          {"choiceString": "Its conclusion must be true if the premises are true", "choiceValue": true},
+          {"choiceString": "It is sound", "choiceValue": false},
+          {"choiceString": "It has at least one true premise", "choiceValue": false}
+        ]
+      },
+      {
+        "question": "Quantitative Reasoning: If \\( \\sqrt{x} + 4 = 10 \\), what is the value of \\(x\\)?",
+        "choices": [
+          {"choiceString": "36", "choiceValue": true},
+          {"choiceString": "16", "choiceValue": false},
+          {"choiceString": "64", "choiceValue": false},
+          {"choiceString": "6", "choiceValue": false}
+        ]
+      },
+      {
+        "question": "Logical Reasoning: If all roses are flowers and all flowers need sunlight, which of the following conclusions is valid?",
+        "choices": [
+          {"choiceString": "All roses need sunlight", "choiceValue": true},
+          {"choiceString": "Some roses do not need sunlight", "choiceValue": false},
+          {"choiceString": "All flowers are roses", "choiceValue": false},
+          {"choiceString": "No roses need sunlight", "choiceValue": false}
+        ]
+      },
+      {
+        "question": "Numerical Reasoning: A bucket can hold 20 liters of water. If it takes 4 minutes to fill the bucket, what is the flow rate in liters per minute?",
+        "choices": [
+          {"choiceString": "4", "choiceValue": false},
+          {"choiceString": "5", "choiceValue": true},
+          {"choiceString": "6", "choiceValue": false},
+          {"choiceString": "8", "choiceValue": false}
+        ]
+      },
+      {
+        "question": "Verbal Reasoning: In the context of the passage, what does the word 'mitigate' most closely mean?",
+        "choices": [
+          {"choiceString": "Exacerbate", "choiceValue": false},
+          {"choiceString": "Alleviate", "choiceValue": true},
+          {"choiceString": "Ignore", "choiceValue": false},
+          {"choiceString": "Analyze", "choiceValue": false}
+        ]
+      },
+      {
+        "question": "Data Sufficiency: Is x > y?\n1) x + y = 10\n2) x > 5",
+        "choices": [
+          {"choiceString": "Statement 1 alone is sufficient", "choiceValue": false},
+          {"choiceString": "Statement 2 alone is sufficient", "choiceValue": false},
+          {"choiceString": "Both statements together are sufficient", "choiceValue": true},
+          {"choiceString": "Neither statement is sufficient", "choiceValue": false}
+        ]
+      }
+    ]
 }
